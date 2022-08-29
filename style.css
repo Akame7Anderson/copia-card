@@ -1,0 +1,86 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19a1ad;
+    height: 100vh;
+}
+.mainDiv {
+    width: 400px;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px 0px #292e4704;
+}
+body > main > div.divImg > img {
+    width: 400px;
+    border-radius: 10px 10px 0 0;
+}
+.vitorino {
+    margin: -70px 0 0 0;
+}
+.fotoPrincipal {
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+#fotoId {
+    width: 120px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+}
+body > main > div.info > p.primeiroP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0;
+    
+}
+body > main > div.info > p.segundoP {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+    color: #b3b3b3;
+    padding: 0 0 25px 0;
+}
+.info .span {
+    padding:0 0 0 10px;
+    font-weight: 520;
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 25px;
+}
+.infos h2 {
+    text-align: center;
+    padding: 25px 0 0 0;
+    padding-bottom: 10px;
+    margin: 0;
+   }
+.infos {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border-top: 2.5px solid rgba(128, 128, 128, 0.164);
+}
+.infos p {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    margin: 0;
+}
+@media (max-width:375px) { 
+    .mainDiv {
+        height: 430px;
+        width: 330px;
+    }
+    body > main > div.div-img > img {
+        width: 330px;
+    }
+}
